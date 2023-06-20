@@ -22,7 +22,7 @@ members = ["examples/client", "examples/server"]
 
 [dependencies]
 futures-io = "0.3.24"
-rustls = { version = "0.21", default-features = false }
+rustls = { git = "https://github.com/Fritiofhedstrom/rustls", branch= "any_domain_name_server_verification_option2_pub_helper_functions", default-features = false }
 
 [features]
 default = ["logging", "tls12"]
